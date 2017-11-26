@@ -1,0 +1,146 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat;
+}
+.icon-kosong{
+	background:url('icons/kosong.png') no-repeat;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat;
+}
+.icon-new{
+	background:url('icons/new.png') no-repeat;
+}
+.icon-close{
+	background:url('icons/close.png') no-repeat;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat;
+}
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat 2px 2px;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat 2px 2px;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat 3px 2px;
+}
+.icon-lock_open{
+	background:url('icons/lock_open.png') no-repeat;
+}
+/* --- tambahan -- */
+.icon-menu{
+	background:url('icons/menu.png') no-repeat;
+}
+.icon-content{
+	background:url('icons/content.png') no-repeat;
+}
+/* Main Icon */
+.icon-home{
+	background:url('icons/home.png') no-repeat;
+}
+.icon-logout{
+	background:url('icons/logout.png') no-repeat;
+}
+.icon-master{
+	background:url('icons/master.png') no-repeat;
+}
+.icon-transaksi{
+	background:url('icons/transaksi.png') no-repeat;
+}
+.icon-lap{
+	background:url('icons/report.png') no-repeat;
+}
+.icon-grafik{
+	background:url('icons/grafik.png') no-repeat;
+}
+/* Master */
+.icon-users{
+	background:url('icons/users_add.png') no-repeat;
+}
+.icon-profil{
+	background:url('icons/profil.png') no-repeat;
+}
+.icon-anggota{
+	background:url('icons/users.png') no-repeat;
+}
+.icon-jenis{
+	background:url('icons/jenis.png') no-repeat;
+}
+/* transaksi */
+.icon-simpanan{
+	background:url('icons/simpanan.png') no-repeat;
+}
+.icon-penarikan{
+	background:url('icons/penarikan.png') no-repeat;
+}
+.icon-pinjaman{
+	background:url('icons/pinjaman.png') no-repeat;
+}
+.icon-bayar{
+	background:url('icons/bayar.png') no-repeat;
+}
+/*Laporan */
+.icon-cetak{
+	background:url('icons/print.png') no-repeat;
+}
+/* grafik */
+.icon-grafik{
+	background:url('icons/grafik.png') no-repeat;
+}
+.icon-out{
+	background:url('icons/out.png') no-repeat;
+}
+/*--menu pengguna --*/
+.icon-pesan{
+	background:url('icons/pesan.png') no-repeat;
+}
+.icon-agenda{
+	background:url('icons/agenda.png') no-repeat;
+}

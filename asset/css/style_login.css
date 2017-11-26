@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:url(../images/page_bg.jpg);
+	font: 13px/20px "TitilliumText14L250wt","Helvetica Neue", Helvetica, Arial, sans-serif; 
+	width:100%; 
+	 margin:0; padding:0;
+}
+.blok_header { 
+	margin:0; 
+	padding:0; 
+	background: url(../images/header_bg.gif) top repeat-x;
+}
+.header { 
+	margin:0; 
+	padding:0;
+	float:left;
+}
+/* logo */
+.logo { 
+	padding:0; 
+	margin:0; 
+	width:70px; 
+	float:left;
+}
+.judul {
+	margin-top:5px;
+	margin-left:20px;
+	padding:2px;
+	float:left;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-align:left;
+}
+.judul h1 {
+	font-size:26px;
+	text-shadow:2px 2px 2px #999;
+	line-height:2px;
+}
+.judul p {
+	text-align:center;
+	line-height:2px;
+}
+
+.header_text { margin:0 auto; padding:10px 0 0px 0; width:960px; }
+
+
+/**** bawah header ***/
+input, select, textarea {
+    font-size: 1em;
+}
+form label {
+	float: left;
+    width: 10em;
+    font-weight: bolder;
+	padding:4px;
+    margin:6px;
+}
+
+input{
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+
+    box-shadow:0 1px 2px #ddd;
+    -moz-box-shadow:0 1px 2px #ddd;
+    -webkit-box-shadow:0 1px 2px #ddd;
+
+    border:1px solid #aaa;
+    color:#555555;
+    padding:4px;
+    margin:6px;
+
+}
+#header {
+	text-align:center;
+	width:400px;
+	margin:0px auto;
+	margin-top:100px;
+	line-height:4px;
+}
+
+#header h1 {
+	font-size:30px;
+	text-shadow:2px 2px 2px #999;
+}
+#header h2 {
+	font-size:12px;
+}
+
+fieldset	{ 
+	width: 400px;
+	font-size:12px;
+	margin: 0px auto;  
+	margin-top: 10px; 
+	border-radius:4px 4px 0 0;
+    -moz-border-radius:4px 4px 0 0;
+    -webkit-border-radius:4px 4px 0 0;
+    padding:5px;
+    border:             #aaa solid 1px;
+    padding:            1.5em;
+    background:         #eee;
+    text-shadow:0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+fieldset legend {
+    font-weight:        bold;
+    color:              #444;
+    padding:5px 10px;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border:1px solid #aaa;
+    background-color:   #fff;
+    -moz-box-shadow:3px 3px 15px #bbb;
+    -webkit-box-shadow:3px 3px 15px #bbb;
+    box-shadow:3px 3px 15px #bbb;
+}
+fieldset td {
+	margin:0px;
+	font-weight:bold;
+}
+fieldset.tblFooters {
+    margin-top:         0;
+    margin-bottom:      0.5em;
+    /* avoid a thick line since this should be used under another fieldset */
+    border-top:         0;
+    text-align:         right;
+    float:              none;
+    clear:              both;
+    -webkit-border-radius:0 0 4px 4px;
+    -moz-border-radius:0 0 4px 4px;
+    border-radius: 0 0 4px 5px;
+	
+	font-weight:        normal;
+    color:              #000000;
+    background:         #D3DCE3;
+}
+fieldset.tblFooters button {
+	background:#fff url(../images/lock.png) left no-repeat;
+	width:84px;
+	-webkit-border-radius:4px 4px 4px 4px;
+    -moz-border-radius:4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 5px;
+	float:right;
+	padding:5px 5px 5px 5px;
+}
+fieldset.tblFooters button:hover {
+	background:#fff url(../images/lock-unlock.png) left no-repeat;
+}
+button {
+	display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+#error {
+	float:left;
+	font-size:10px;
+	line-height:12px;
+	color:red;
+}
+#footer {
+	font-size:10px;
+	line-height:2px;
+}
+p.clr, .clr { clear:both; padding:0; margin:0;}

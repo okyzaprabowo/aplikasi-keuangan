@@ -1,0 +1,74 @@
+html{
+height:100%;
+background:#CCC;
+}
+body{
+font-family:Arial,Helvetica,sans-serif;
+height:100%;
+margin:0;
+background:#CCC;
+background:-webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
+background:-moz-linear-gradient(top,  #EEE,  #CCC);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#EEEEEE', EndColorStr='#CCCCCC'); 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#EEEEEE', EndColorStr='#CCCCCC')"; 
+}
+a,a:visited{
+color:#06F;
+text-decoration:none;
+}
+.title{
+height:60px;
+}
+.panel{
+margin:0 auto;
+background-color:#FFF;
+width:852px;
+min-height:100%;
+padding:20px;
+text-align:left;
+-moz-box-shadow: 0px 0px 4px #000;
+box-shadow: 0px 0px 4px #000;
+-webkit-box-shadow: 0px 0px 4px #000;
+}
+.info-section{
+width:850px;
+height:400px;
+background-color:#EEE;
+border:1px solid #333;
+margin-top:20px;
+position:relative;
+overflow:hidden;
+}
+.form-panel{
+position:absolute;
+top:0;
+left:630px;
+width:190px; 
+height:280px; 
+padding:15px; 
+font-size:12px;
+color:#000;
+}
+.form-sec{
+margin-bottom:10px;
+}
+.description{
+position:absolute;
+top:0;
+left:0;
+width:600px;
+height:100%;
+padding:15px;
+background-color:#000;
+color:#FFF;
+font-size:14px;
+}
+select{
+width:190px;
+}
+.copyright{
+width:100%;
+text-align:right;
+font-size:11px;
+margin:20px 0;
+}

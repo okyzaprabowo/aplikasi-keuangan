@@ -1,0 +1,62 @@
+/* classic slising doors example css as seen on http://www.alistapart.com/articles/slidingdoors/*/
+  .tabs {
+    /*float:left;*/
+	margin-top:5px;
+    width:100%;
+    line-height:normal;
+	font-family:Arial, Helvetica, sans-serif;
+   	font: bold 16px Arial, Helvetica, sans-serif;
+	text-shadow:2px 2px 2px #999;
+	}
+	.tabs .tabbody p {
+		font: 12px Arial, Helvetica, sans-serif;
+		text-shadow:0px 0px 0px;
+	}
+  .tabs ul.tabs-list {
+    margin:0;
+    padding:10px 10px 0;
+    list-style:none;
+    }
+  .tabs ul.tabs-list li {
+    float:left;
+    background:url("left.gif") no-repeat left top;
+    margin:0;
+    padding:0 0 0 9px;
+    }
+  .tabs ul.tabs-list a {
+    float:left;
+    display:block;
+    background:url("right.gif") no-repeat right top;
+    padding:5px 15px 4px 6px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#765;
+    }
+  /* Commented Backslash Hack
+     hides rule from IE5-Mac \*/
+  .tabs ul.tabs-list a {float:none;}
+  /* End IE5-Mac hack */
+  .tabs ul.tabs-list a:hover {
+    color:#333;
+    }
+  .tabs ul.tabs-list .current {
+    background-image:url("left_on.gif");
+    border-width:0;
+    }
+  .tabs ul.tabs-list .current a {
+    background-image:url("right_on.gif");
+    color:#333;
+    padding-bottom:5px;
+    }
+    .js .tabs .current-info,
+    .js .tabs .accessibletabsanchor,
+    .js .tabs .tabhead /*position each individual tab's heading (default class .tabhead) off-screen*/ {
+        position:absolute;
+        left:-999em;
+    }
+    .js .tabs .content{
+        clear:both;
+        margin:2em 1em 1em 1em;
+		width:720px;
+    }
+    

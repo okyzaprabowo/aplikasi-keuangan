@@ -1,0 +1,165 @@
+@charset "utf-8";
+body { 
+margin:0; 
+padding:0; 
+width:100%; 
+background:#f1f1f1; 
+}
+html { padding:0; margin:0;}
+
+a { text-decoration:none; color:#000}
+a:hover { text-decoration:underline;}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+/* main */
+.main { padding:0; margin:0 auto;}
+/********** header **********/
+.blok_header { margin:0; padding:0; background: url(../images/header_bg.gif) top repeat-x;}
+.header { width:960px; margin:0 auto; padding:0;}
+/* logo */
+.logo { 
+	padding:5px; 
+	margin:0; 
+	width:70px; 
+	float:left;
+}
+.judul {
+	padding:2px;
+	margin-top:12px;
+	float:left;
+	line-height:1.8em;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-align:left;
+	height:70px;
+	font-size:14px;
+}
+.judul h1 {
+	font-size:30px;
+	text-shadow:2px 2px 2px #999;
+}
+.judul p {
+	text-align:center;
+	line-height:1em;
+}
+.jam {
+	padding:0 10px 0 0;
+	margin-top:7px; 
+	width:400px; 
+	float:right;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:20px;
+	text-shadow:2px 2px 2px #999;
+}
+/* menu */	
+.menu_resize { 
+	width:960px; 
+	margin:0 auto; 
+	padding:0px;
+	padding-bottom:10px;
+}
+
+
+/********** body **********/
+.body_resize { 
+	margin:0; 
+	padding:0;  
+	background:#FFFFFF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpiYGBgEPr//z8DCIMBkAEWYIRywIIAAQYAPcIPFz/ScLMAAAAASUVORK5CYII=);
+	border-top:1px solid #e6e6e6;
+}
+.body { width:960px;  margin:0 auto; padding:10px 10px;}
+.body h2 {
+	font-size:18px;
+}
+.body_big {
+	font-family:Arial, Helvetica, sans-serif; 
+	width:960px; 
+	float:left; 
+}
+.body_big .list {
+	font-size:12px;
+	border:1px dotted #999;
+	padding:5px;
+}
+.body_big .list .center{
+	font-size:16px;
+	padding:5px;
+	border:1px solid #999;
+	background-color:#676767;
+	color:#fff;
+}
+.body_big .list td {
+	padding:10px;
+	border:1px dotted #999;
+}
+/*************footer**********/
+.footer {padding:0 0 20px 0;  margin:0 auto;  border-top:1px solid #ddd; }
+.footer_resize { margin:0 auto; padding:10px 0 0 0; width:960px;}
+.footer p { 
+	font:normal 11px  Arial, Helvetica, sans-serif; 
+	color:#676767;
+	text-shadow:2px 2px 2px #999;
+}
+.footer a { font: normal 11px Arial, Helvetica, sans-serif; color:#676767; text-decoration:none; padding:5px; margin:0;}
+.footer img { margin:0; padding:0; float:left;}
+.footer p.leftt { text-align:left; width:350px; margin:0; padding:15px 0 0 0; float:right;} 
+
+/********** contact form **********/
+.form { float:left; width:560px; margin-top:40px; margin-left:10px;}
+/********** contact form **********/
+#contactform { margin:0; padding:5px 10px;}
+#contactform * { color:#7a7a7a;}
+#contactform ol { margin:0; padding:0; list-style:none;}
+#contactform li { margin:0; padding:0; background:none; border:none; display:block;}
+#contactform li.buttons { margin:5px 0 5px 0;}
+#contactform label { float:left; margin:0; width:100px; padding:5px 0; font:bold 12px Arial, Helvetica, sans-serif; color:#444444; text-transform:capitalize;}
+#contactform label span { font:normal 10px Arial, Helvetica, sans-serif;}
+#contactform input.text { width:420px; border:1px solid #e7e7e7; margin:5px 0; padding:5px 2px; height:15px; background:#f8f8f8;}
+#contactform textarea { width:420px; border:1px solid #e7e7e7; margin:10px 0; padding:2px; background:#f8f8f8; height:250px;}
+#contactform li.buttons input { padding:3px 0; margin:0 0 0 420px; border:0; color:#FFF;}
+p.response { text-align:center; color:#2c2c2c; font:bold 11px Arial, Helvetica, sans-serif; line-height:1.8em; width:auto;}
+
+p.clr, .clr { clear:both; padding:0; margin:0;}
+li.bg, .bg { clear:both; border-bottom:1px solid #dedede; padding:10px 0 0 0; margin:0 0 10px 0; background:none; list-style:none;}
+
+button {
+	display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
