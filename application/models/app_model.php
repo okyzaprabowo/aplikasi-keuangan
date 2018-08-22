@@ -349,8 +349,10 @@ class App_Model extends CI_Model {
 	//query login
 	public function getLoginData($usr,$psw)
 	{
-		$u = mysql_real_escape_string($usr);
-		$p = md5(mysql_real_escape_string($psw));
+		// $u = mysql_real_escape_string($usr);
+		// $p = md5(mysql_real_escape_string($psw));
+		$u = $usr;
+		$p = md5($psw);
 		$q_cek_login = $this->db->get_where('users', array('username' => $u, 'password' => $p));
 		if(count($q_cek_login->result())>0)
 		{
